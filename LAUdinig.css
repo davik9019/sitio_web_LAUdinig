@@ -1,0 +1,12 @@
+.logo{
+    display: block;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+}
+#seccion_principal{
+    width: 180px;
+    height: 250px;
+    background-color: #e0e0e0;
+    margin: auto;
+}
