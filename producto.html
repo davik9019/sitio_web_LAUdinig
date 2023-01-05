@@ -4,34 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrontEnd Store</title>
+    <title>LAUdinig</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header class="header">
         <a href="index.html">
-            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+            <img class="header__logo" src="imagenes/Logo daniela.png" alt="Logotipo">
         </a>
     </header>
-    <nav class="navegacion">
-        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
-        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
-    </nav>
 
+    <!--Barra de navegacion-->
+
+    <nav class="navegacion">
+        
+        <a class="navegacion__enlace" href="index.html">Home</a>
+        <a class="navegacion__enlace" href="nosotros.html">Acerca de Nosotros</a>
+    </nav>
+    
     <main class="contenedor">
-        <h1>React JS</h1>
+        <h1>Conjunto Rojo</h1>
         <div class="camisa">
-            <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto">
+            <img class="camisa__imagen" src="imagenes/LAUdinig/20210810_103958.jpg" alt="imagen del producto">
             <div class="camisa__contenido">
                 <p>Curabitur at eros condimentum, ultricies nisi sit amet, pharetra elit, ts lsk kk alfa tauri. consectetur adipiscing elit. Maecenas eget massa accumsan massa sagittis egestas.</p>
                 <form class="formulario">
                     <select class="formulario__campo">
-                        <option disabled selected>-- Seleccionar Talla --</option>
-                        <option>Chica</option>
-                        <option>Mediana</option>
-                        <option>Grande</option>
+                        <option disabled selected>Seleccionar Talla</option>
+                        <option>30</option>
+                        <option>32</option>
+                        <option>34</option>
+                        <option>36</option>
+                        <option>38</option>
                     </select>
                     <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
                     <input class="formulario__submit" type="submit" value="Agregar al Carrito">
@@ -41,7 +48,7 @@
     </main>
 
     <footer class="footer">
-        <p class="footer__texto">Front End Store - Todos los Derechos Reservados 2021</p>
+        <p class="footer__texto">LAUdinig - Todos los Derechos Reservados 2021</p>
     </footer>
 </body>
 </html>
